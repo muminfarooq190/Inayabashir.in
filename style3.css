@@ -1,0 +1,111 @@
+.blog_detailsection{
+   
+    display: flex;
+    padding: auto;
+    flex-wrap: wrap !important;
+    justify-content:space-around;
+  
+   
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,a,p,small{
+    font-family: "Montserrat";
+    color: #a77a3f;
+}
+
+.blog_detail_heading{
+   text-align: center; 
+  
+}
+.blog_detail_heading h1{
+    padding-top: 0rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    font-weight: 900;
+   
+}
+.blog_detail_heading small{
+    font-weight: 800;
+    font-size: 1.2rem;
+    opacity: .9;
+}
+
+
+.shape{
+width: 43rem;
+min-height: 20rem;
+
+
+}
+.shape{
+    padding: 2.2rem;
+    
+}
+.blog_first_para{
+   
+    
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+@media (max-width:900px) {
+    .blog_first_para{
+       
+        font-size: 1.2rem !important;
+        
+       
+    }
+    .image_miragee{
+        margin-left: 2.5rem !important;
+         width: 53% !important;
+        
+    }
+}
+
+.travelsection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 3rem;
+    
+    
+}
+.travelmain{
+    min-height: 50rem;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+   
+    
+}
+
+.travel_video{
+min-height: 10rem;
+margin-left: 3rem;
+}
+.travel_descp{
+    min-height: 10rem;
+}
+.video{
+    width: 70%;
+}
+.travel_descp p {
+    margin-left: 3rem;
+    padding: 1rem;
+   width: 70%;
+   font-size: 2rem;
+}
+.trvlh2{
+    padding: 1rem;
+    margin-left: 3rem;
+}
+.travel_container{
+    background-image: url(./images/08.jpg);
+    background-size: cover;
+}
+
