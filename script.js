@@ -1,5 +1,18 @@
+var travelheder=this.document.getElementById("travelheder");
+var travelsection=this.document.querySelector(".travelsection");
+window.addEventListener('scroll',function(e){
+	
+	if(this.window.pageYOffset>45){
+		travelheder.classList.add("navbar");
+		travelheder.nextElementSibling.classList.add('margin_class');
+	}else{
+		travelheder.classList.remove("navbar");
+		travelheder.nextElementSibling.classList.remove('margin_class')
+	}
+})		
+
 TweenMax.to(".wrapper", 1, {
-				top: "-100%",
+				top: "-110%",
 				ease: Expo.easeInOut,
 				delay: 2
 			});
@@ -66,7 +79,6 @@ TweenMax.staggerFrom(
 				},
 				0.2
 );
-				
 
 			
 const body = document.body,

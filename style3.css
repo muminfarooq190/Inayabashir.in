@@ -75,37 +75,59 @@ min-height: 20rem;
 }
 .travelmain{
     min-height: 50rem;
-    border: 1px solid red;
+   
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    position: relative;
-   
+    flex-direction: row;
+    justify-content: space-evenly;   
     
 }
 
-.travel_video{
-min-height: 10rem;
-margin-left: 3rem;
+.travelmainchild{
+    height: 20rem;
+    width: 20rem;
+   
 }
-.travel_descp{
-    min-height: 10rem;
+.travelmain_four{
+    position: relative;
+    margin-bottom: .5rem;
+    
 }
-.video{
-    width: 70%;
+.travelplace{
+    position: absolute;
+	color:#fff;
+	bottom: 10%;
+    left: 10%;
+	min-width: 200px;
+	opacity: .9;
+	
 }
-.travel_descp p {
-    margin-left: 3rem;
-    padding: 1rem;
-   width: 70%;
-   font-size: 2rem;
+
+.travelplace h1{
+    color:#fff;
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: bold;
+   
 }
-.trvlh2{
-    padding: 1rem;
-    margin-left: 3rem;
+
+
+
+.travelmain_four{
+    position: relative;
 }
-.travel_container{
-    background-image: url(./images/08.jpg);
-    background-size: cover;
+.travelmain_four img {
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+    background-repeat: no-repeat;
 }
+@media(max-width:990px)
+{
+    .travelplace{
+        margin-left: 2rem!important;
+    }
+}
+
+
 
